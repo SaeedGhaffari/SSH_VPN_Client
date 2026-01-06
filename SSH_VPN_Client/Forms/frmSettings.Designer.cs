@@ -1,6 +1,6 @@
 ﻿namespace SSH_VPN_Client
 {
-    partial class SettingsForm
+    partial class frmSettings
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SettingsForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSettings));
             txt_ip = new TextBox();
             label1 = new Label();
             label2 = new Label();
@@ -105,6 +105,7 @@
             // 
             txt_password.Location = new Point(13, 202);
             txt_password.Name = "txt_password";
+            txt_password.PasswordChar = '*';
             txt_password.Size = new Size(242, 23);
             txt_password.TabIndex = 3;
             // 
@@ -148,7 +149,7 @@
             btn_save.UseVisualStyleBackColor = false;
             btn_save.Click += btn_save_Click;
             // 
-            // SettingsForm
+            // frmSettings
             // 
             AcceptButton = btn_save;
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -162,9 +163,9 @@
             Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             MinimizeBox = false;
-            Name = "SettingsForm";
+            Name = "frmSettings";
             ShowInTaskbar = false;
-            Text = "SettingsForm";
+            Text = "Settings";
             Load += SettingsForm_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();

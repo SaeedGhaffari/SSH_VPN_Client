@@ -215,7 +215,7 @@ public partial class frmMain : Form
     }
     private void OpenSettingsForm()
     {
-        SettingsForm settingsForm = new SettingsForm();
+        frmSettings settingsForm = new frmSettings();
         settingsForm.ShowDialog();
     }
 

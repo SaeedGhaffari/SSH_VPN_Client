@@ -3,11 +3,11 @@ using SSH_VPN_Client.Helpers;
 
 namespace SSH_VPN_Client;
 
-public partial class SettingsForm : Form
+public partial class frmSettings : Form
 {
     private RegistryHelper _registry = new RegistryHelper();
     private string _numericFilter = "0123456789\t\b";
-    public SettingsForm()
+    public frmSettings()
     {
         InitializeComponent();
     }
