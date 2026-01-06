@@ -86,10 +86,10 @@
             _lnkGithub.AutoSize = true;
             _lnkGithub.Location = new Point(60, 19);
             _lnkGithub.Name = "_lnkGithub";
-            _lnkGithub.Size = new Size(280, 15);
+            _lnkGithub.Size = new Size(277, 15);
             _lnkGithub.TabIndex = 3;
             _lnkGithub.TabStop = true;
-            _lnkGithub.Text = "https://github.com/SaeedGhaffari/SHH_VPN_Client";
+            _lnkGithub.Text = "https://github.com/SaeedGhaffari/SSH_VPN_Client";
             _lnkGithub.LinkClicked += _lnkGithub_LinkClicked;
             // 
             // _btnClose
